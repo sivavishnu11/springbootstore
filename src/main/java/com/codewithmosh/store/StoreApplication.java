@@ -14,6 +14,7 @@ public class StoreApplication {
         //OrderService orderService = new OrderService();
         //orderService.setPaymentService(new PaypalPaymentService());
         orderService.makeOrder();
+        System.out.println("Order made");
     }
 
 }
